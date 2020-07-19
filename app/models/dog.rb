@@ -7,6 +7,7 @@ class Dog
     self.name = name 
     self.breed = breed 
     self.age = age 
+    self.all << self 
   end 
   
   def self.all 
